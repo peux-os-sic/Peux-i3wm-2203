@@ -3,7 +3,7 @@
 
 ##################################################
 ## Author - DN-debug
-## Description - Peux i3WM setup 
+## Description - Peux bspwm setup 
 ##################################################
 
 # copy configurations
@@ -13,10 +13,10 @@ then
     echo "changing directory"
     cd ../
     mkdir $HOME/tmp
-    cp -r Peux-i3wm-2203/ $HOME/tmp/
-    rm -rf $HOME/tmp/Peux-i3wm-2203/install.sh
-    rm -rf $HOME/tmp/Peux-i3wm-2203/.git
-    rm -rf $HOME/tmp/Peux-i3wm-2203/details.md
+    cp -r Peux-bspwm-2203/ $HOME/tmp/
+    rm -rf $HOME/tmp/Peux-bspwm-2203/install.sh
+    rm -rf $HOME/tmp/Peux-bspwm-2203/.git
+    rm -rf $HOME/tmp/Peux-bspwm-2203/details.md
     notify-send "Copied the configurations to $HOME/tmp/"
 else
     notify-send "skipping the setup!"
@@ -24,5 +24,5 @@ fi
 
 # cleanup
 
-rm -rf /tmp/fetcher/Peux-i3wm-2203
+rm -rf /tmp/fetcher/Peux-bspwm-2203
 notify-send "Done!"
