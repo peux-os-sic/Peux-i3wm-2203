@@ -2,4 +2,4 @@
 Peux OS i3WM 22.03 dotfiles
 
 Sample image:
-![Screenshot](i31.png.png)
+![](i31.png.png)
