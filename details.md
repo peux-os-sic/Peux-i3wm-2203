@@ -1,0 +1,1 @@
+This will copy the Peux OS i3WM 22.03 configurations to your system's "/tmp/Peux-i3wm-2203" directory. You may then copy the respective configuration from this directory over to your Home directory.  The repository can be found at https://github.com/peux-os-sic/Peux-i3wm-2203.
